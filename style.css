@@ -1,0 +1,183 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: rgb(146, 146, 146);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top-line {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 25px;
+    text-align: right;
+    padding: 3px 10px 0px 0px;
+}
+
+.top-line a {
+    margin: 0 5px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.nav-line {
+    display: inline-flex;
+    height: 52px;
+    border-bottom: solid 2px #c9c9c9;
+    padding: 2px 2px;
+}
+
+.logo {
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.menu {
+    align-self: center;
+    margin: 0px 5px;
+    flex-grow: 1;
+    padding: 2px 2px;
+}
+
+.cart {
+    text-align: right;
+    align-self: center;
+    width: 26px;
+    margin: 0 5px;
+}
+
+.menu a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-family: "Questrial", sans-serif;
+    margin: 0 15px;
+    letter-spacing: 1px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.product-picture {
+    align-self: center;
+    text-align: center;
+    width: 50%;
+}
+
+.product-picture img {
+    width: 50%;
+}
+
+.product-content {
+    width: 50%;
+}
+
+.content-wrapper {
+    width: 90%;
+}
+
+button {
+    background-color: #173051;
+    color: #ffff;
+    font-family: "Questrial", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 48px;
+    width: 100%;
+    border: 1px solid #142a46;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: none;
+    color: rgb(110, 110, 110);
+    font-size: 28px;
+}
+
+.price {
+    font-size: 23px;
+}
+
+ul {
+    list-style: none;
+    margin: 4em 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin: 10px 0;
+}
+
+li span {
+    font-size: 12px;
+    align-self: center;
+    margin: 0 0 0 17px;
+    letter-spacing: 1.5px;
+}
+
+ul img {
+    width: 40px;
+}
+
+.delivery-date {
+    font-weight: bold;
+    margin: 0 6px;
+    color: rgb(110, 110, 110);
+}
+
+.details-wrapper {
+    margin: 10px 0;
+    width: 90%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(168, 168, 168);
+    height: 54px;
+    /* margin: 0 10px; */
+    padding: 0 20px 0 0;
+}
+
+.details span,
+img {
+    align-self: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Questrial", sans-serif;
+}
+
+.det-expl-1,
+.details-explain {
+    display: none;
+    font-family: "Questrial", sans-serif;
+    margin: 10px 0;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.arrow-up,
+.arrow-up-2 {
+    display: none;
+}
+
+.btn-1,
+.btn-2 {
+    align-self: center;
+}
