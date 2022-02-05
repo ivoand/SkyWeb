@@ -107,6 +107,7 @@ h1 {
 }
 
 .price {
+    display: block;
     font-size: 23px;
 }
 
@@ -148,8 +149,7 @@ ul img {
     justify-content: space-between;
     border-bottom: 3px solid rgb(168, 168, 168);
     height: 54px;
-    /* margin: 0 10px; */
-    padding: 0 20px 0 0;
+    padding: 0 5px 0 0;
 }
 
 .details span,
@@ -162,7 +162,9 @@ img {
 }
 
 .det-expl-1,
-.details-explain {
+.det-expl-2,
+.det-expl-3,
+.det-expl-4 {
     display: none;
     font-family: "Questrial", sans-serif;
     margin: 10px 0;
@@ -172,12 +174,97 @@ img {
     line-height: 1.5em;
 }
 
-.arrow-up,
-.arrow-up-2 {
+.arrow-up-1,
+.arrow-up-2,
+.arrow-up-3,
+.arrow-up-4 {
     display: none;
 }
 
 .btn-1,
-.btn-2 {
+.btn-2,
+.btn-3,
+.btn-4 {
     align-self: center;
+    height: 35px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+}
+
+.menu-icon {
+    display: none;
+    align-self: center;
+    width: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-wrapper {
+        width: 100%;
+        text-align: -webkit-center;
+    }
+    .product-content {
+        width: 90%;
+    }
+    .product-picture {
+        width: 100%;
+    }
+    .menu-icon {
+        display: block;
+        align-self: center;
+    }
+    .menu-icon-on {
+        display: block;
+    }
+    .menu-icon-off {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .nav-line {
+        justify-content: space-between;
+        padding: 0 30px;
+        height: 75px;
+    }
+    .cart img {
+        width: 40px;
+    }
+    .logo img {
+        width: 9em;
+    }
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        background: #ffffff;
+        width: 65%;
+        font-size: 3em;
+        margin: 0px;
+        top: 105px;
+        left: 0;
+        padding: 0;
+    }
+    .menu-exit {
+        width: 75px;
+        height: 73px;
+        margin: 1px -17px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+    }
+    #menu a {
+        height: 88px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 72%);
+        justify-content: center;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
+    }
 }
