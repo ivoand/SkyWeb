@@ -152,6 +152,10 @@ ul img {
     padding: 0 5px 0 0;
 }
 
+.details-line {
+    border-bottom: 3px solid rgb(255, 123, 0);
+}
+
 .details span,
 img {
     align-self: center;
